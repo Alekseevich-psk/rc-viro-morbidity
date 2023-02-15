@@ -1,0 +1,993 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description"
+        content="Вироньюс - новости, статьи, опросы, статистика, доклады ученых по COVID-19, а также лечение ковида и его штаммов противовирусными препаратами Ареплевир, Эсперавир, Скайвира и др. | ViroNews.ru" />
+    <script type="text/javascript"
+        data-skip-moving="true">(function (w, d, n) { var cl = "bx-core"; var ht = d.documentElement; var htc = ht ? ht.className : undefined; if (htc === undefined || htc.indexOf(cl) !== -1) { return; } var ua = n.userAgent; if (/(iPad;)|(iPhone;)/i.test(ua)) { cl += " bx-ios"; } else if (/Windows/i.test(ua)) { cl += ' bx-win'; } else if (/Macintosh/i.test(ua)) { cl += " bx-mac"; } else if (/Linux/i.test(ua) && !/Android/i.test(ua)) { cl += " bx-linux"; } else if (/Android/i.test(ua)) { cl += " bx-android"; } cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch"); cl += w.devicePixelRatio && w.devicePixelRatio >= 2 ? " bx-retina" : " bx-no-retina"; var ieVersion = -1; if (/AppleWebKit/.test(ua)) { cl += " bx-chrome"; } else if (/Opera/.test(ua)) { cl += " bx-opera"; } else if (/Firefox/.test(ua)) { cl += " bx-firefox"; } ht.className = htc ? htc + " " + cl : cl; })(window, document, navigator);</script>
+    <link
+        href="https://vironews.ru/bitrix/cache/css/s1/viro/page_f772315ca250d79b2d64291798d71687/page_f772315ca250d79b2d64291798d71687_v1.css?16760178202491"
+        type="text/css" rel="stylesheet" />
+    <link
+        href="https://vironews.ru/bitrix/cache/css/s1/viro/template_bd123f7aec484d7b26b545d202023166/template_bd123f7aec484d7b26b545d202023166_v1.css?1676017055281090"
+        type="text/css" data-template-style="true" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="msapplication-TileColor" content="#235091">
+    <meta name="theme-color" content="#235091">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="./morbidity.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        rel="stylesheet">
+
+
+
+
+    <title>VIRO NEWS (Вироньюс) - последние новости и статьи о Covid 19 и его лечении.</title>
+
+    <meta name="yandex-verification" content="99266008642267c8">
+    <meta name="google-site-verification" content="7sYvis_NVMJMIdKlV06n_2Z1TEZSUdTsYLM1fe8Oics">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="main">
+            <header>
+                <div class="cont row">
+                    <div class="logo">
+                        <a href="index.html" class="name">
+                            VIRO NEWS
+                        </a>
+
+                        <div class="desc">
+                            Предупреждён, значит, вооружён
+                        </div>
+                    </div>
+
+                    <div class="search modal_cont">
+                        <button class="btn mini_modal_btn" data-modal-id="#search_modal">
+                            <svg class="icon">
+                                <use xlink:href="/local/templates/viro/images/sprite.svg#ic_search"></use>
+                            </svg>
+                        </button>
+
+                        <div class="mini_modal" id="search_modal">
+                            <form action="https://vironews.ru/search/">
+                                <button id="search-submit-button" name="s" type="submit" class="">
+                                    <svg class="icon">
+                                        <use xlink:href="/local/templates/viro/images/sprite.svg#ic_search"></use>
+                                    </svg>
+                                </button>
+
+                                <input id="title-searchs-input" type="text" name="q" value="" size="40"
+                                    placeholder="Я ищу..." class="input" maxlength="100" autocomplete="off" />
+                                <button type="button" class="close_btn">
+                                    <svg>
+                                        <use xlink:href="/local/templates/viro/images/sprite.svg#ic_close"></use>
+                                    </svg>
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!-- div class="account">
+                    <button class="login_btn modal_btn" data-modal="#login_modal">Войти</button>
+                </div -->
+
+                    <div class="sep"></div>
+
+                    <button class="mob_menu_btn">
+                        <span></span>
+                    </button>
+                </div>
+
+                <div class="cont row mob_menu">
+                    <button class="mob_close_btn"></button>
+
+                    <nav class="menu row">
+                        <div class="menu_item">
+                            <a href="https://vironews.ru/news/">Новости</a>
+                        </div>
+                        <div class="menu_item">
+                            <a href="https://vironews.ru/klinicheskie_rekomendacii/">Клинические рекомендации</a>
+                        </div>
+                        <div class="menu_item">
+                            <a href="https://vironews.ru/terapiya/">Терапия</a>
+                        </div>
+                        <div class="menu_item">
+                            <a href="https://vironews.ru/peredajte_pacientam/">Передайте пациентам</a>
+                        </div>
+                        <div class="menu_item">
+                            <a href="https://vironews.ru/video/">Видео</a>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="overlay"></div>
+            </header>
+
+            <section class="page_head border">
+                <div class="cont row">
+                    <h1 class="page_title full_w">
+                        VIRO NEWS - самая свежая информация о Covid 19 и способах его лечения
+                    </h1>
+                </div>
+            </section>
+
+
+
+
+            <section class="first_section">
+                <div class="cont row">
+                    <div class="data">
+
+                        <div class="morbidity">
+                            <div class="morbidity__sl-arrow sl-arrow">
+                                <div class="sl-arrow__btn sl-arrow__btn--prev"></div>
+                                <div class="sl-arrow__btn sl-arrow__btn--next"></div>
+                            </div>
+                            <div class="morbidity__slider swiper-container">
+                                <div class="morbidity__wrapper swiper-wrapper">
+                                    <div class="morbidity__slide swiper-slide">
+                                        <div class="morbidity__title">Сравнительные данные по заболеваемости гриппом и
+                                            ОРВИ в городах России в сезоны 2021/22 и 2022/23 гг.</div>
+                                        <div class="morbidity__info">
+                                            <canvas id="sickChart"></canvas>
+                                        </div>
+                                        <div class="morbidity__desc">
+                                            На 05 неделе 2023 г. уровень заболеваемости населения ОРВИ и гриппом в целом
+                                            по стране повысился, по сравнению с предыдущей неделей, и, составив 86,6 на
+                                            10 000 населения, был выше базовой линии (70,0) на 23,7% и выше
+                                            еженедельного эпидемического порога на 7,0%.
+                                        </div>
+                                    </div>
+                                    <div class="morbidity__slide swiper-slide">
+                                        <div class="morbidity__title">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Aspernatur, nulla.</div>
+                                        <div class="morbidity__info">
+                                            <canvas id="sickChart2"></canvas>
+                                        </div>
+                                        <div class="morbidity__desc">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione omnis
+                                            doloribus eligendi totam quod cupiditate, voluptatum iusto dolorum
+                                            aspernatur cumque rerum architecto nisi eius velit officiis nostrum tempora
+                                            debitis ullam!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="stats">
+
+                        <div class="status">
+                            Заболеваемость COVID-19 сегодня
+
+                            <span class="point"></span>
+                        </div>
+
+                        <br>
+
+                        <!--
+        <div class="title" data-date="15.02.23, 15:00">
+            Главные цифры на 15.02.23, 15:00        </div>
+    -->
+
+                        <div class="row">
+                            <div class="item">
+                                <div class="icon">
+                                    <img src="viro/images/ic_site_stats2.svg" alt="Госпитализаций">
+
+                                    <div>
+                                        Госпитализаций
+                                    </div>
+                                </div>
+
+                                <div class="per_day orange">
+                                    1 548 </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="icon">
+                                    <img src="viro/images/ic_site_stats1.svg" alt="Заражений">
+
+                                    <div>
+                                        Заражений
+                                    </div>
+                                </div>
+
+                                <div class="per_day blue">
+                                    +13 436 </div>
+
+                                <div class="total">
+                                    22 106 985 </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="icon">
+                                    <img src="viro/images/ic_site_stats3.svg" alt="Смертей">
+
+                                    <div>
+                                        Смертей
+                                    </div>
+                                </div>
+
+                                <div class="per_day dark">
+                                    +36 </div>
+
+                                <div class="total">
+                                    395 652 </div>
+                            </div>
+
+                            <div class="label">
+                                За сутки
+                            </div>
+
+                            <div class="label">
+                                Всего
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="site_search">
+                <div class="cont">
+                    <form action="https://vironews.ru/search/">
+                        <button id="search-submit-button" name="s" type="submit" class="icon">
+                            <svg class="icon">
+                                <use xlink:href="/local/templates/viro/images/sprite.svg#ic_search"></use>
+                            </svg>
+                        </button>
+                        <input id="title-searchs-input" type="text" name="q" value="" size="40"
+                            placeholder="Поиск по сайту" class="input" maxlength="100" autocomplete="off" />
+                    </form>
+                </div>
+            </section>
+
+            <section class="articles">
+                <div class="cont">
+
+                    <div class="categories">
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9B%D0%A0%C2%A0%D0%A0%E2%80%99%D0%A0%C2%98"
+                                data-code="#ОРВИ">
+                                #ОРВИ </a>
+                        </div>
+                        <div>
+                            <a class="" href="https://vironews.ru/search/?q=%23COVID-19" data-code="#COVID-19">
+                                #COVID-19 </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A1%E2%80%9A%D0%A0%C2%B5%D0%A1%D0%82%D0%A0%C2%B0%D0%A0%D1%97%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#терапия">
+                                #терапия </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%C2%A4%D0%A0%C2%B0%D0%A0%D0%86%D0%A0%D1%91%D0%A0%D1%97%D0%A0%D1%91%D0%A1%D0%82%D0%A0%C2%B0%D0%A0%D0%86%D0%A0%D1%91%D0%A1%D0%82"
+                                data-code="#Фавипиравир">
+                                #Фавипиравир </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%92%D0%A1%D0%82%D0%A0%C2%B5%D0%A0%D1%97%D0%A0%C2%BB%D0%A0%D1%91%D0%A0%D0%86%D0%A0%D1%91%D0%A1%D0%82"
+                                data-code="#Арепливир">
+                                #Арепливир </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%91%D0%A1%D0%83%D0%A1%D0%83%D0%A0%C2%BB%D0%A0%C2%B5%D0%A0%D2%91%D0%A0%D1%95%D0%A0%D0%86%D0%A0%C2%B0%D0%A0%D0%85%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#исследования">
+                                #исследования </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%C2%AD%D0%A1%D0%83%D0%A0%D1%97%D0%A0%C2%B5%D0%A1%D0%82%D0%A0%C2%B0%D0%A0%D0%86%D0%A0%D1%91%D0%A1%D0%82"
+                                data-code="#Эсперавир">
+                                #Эсперавир </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D0%8E%D0%A0%D1%94%D0%A0%C2%B0%D0%A0%E2%84%96%D0%A0%D0%86%D0%A0%D1%91%D0%A1%D0%82%D0%A0%C2%B0"
+                                data-code="#Скайвира">
+                                #Скайвира </a>
+                        </div>
+                        <div>
+                            <a class="" href="https://vironews.ru/search/?q=%23Covid-19" data-code="#Covid-19">
+                                #Covid-19 </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%C2%A0%D0%A0%C2%B5%D0%A0%D1%94%D0%A0%D1%95%D0%A0%D1%98%D0%A0%C2%B5%D0%A0%D0%85%D0%A0%D2%91%D0%A0%C2%B0%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A0%D1%91"
+                                data-code="#Рекомендации">
+                                #Рекомендации </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9B%D0%A0%D1%98%D0%A0%D1%91%D0%A0%D1%94%D0%A1%D0%82%D0%A0%D1%95%D0%A0%D0%85"
+                                data-code="#Омикрон">
+                                #Омикрон </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%99%D0%A0%C2%B5%D0%A0%D0%85%D0%A1%E2%80%9A%D0%A0%C2%B0%D0%A0%D0%86%D0%A1%D0%82"
+                                data-code="#Кентавр">
+                                #Кентавр </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D2%91%D0%A0%D1%91%D0%A0%C2%B0%D0%A0%D1%96%D0%A0%D0%85%D0%A0%D1%95%D0%A1%D0%83%D0%A1%E2%80%9A%D0%A0%D1%91%D0%A0%D1%94%D0%A0%C2%B0"
+                                data-code="#диагностика">
+                                #диагностика </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D0%87%D0%A0%D1%97%D0%A0%D1%95%D0%A0%D0%85%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#Япония">
+                                #Япония </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9E%D0%A0%C2%B5%D0%A1%D0%83%D0%A1%E2%80%9A%D0%A0%D1%95%D0%A1%D0%83%D0%A1%E2%80%9A%D0%A0%C2%B5%D0%A1%D0%82%D0%A0%D1%95%D0%A0%D0%85"
+                                data-code="#Тестостерон">
+                                #Тестостерон </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%E2%80%99%D0%A0%C2%B7%D0%A0%C2%B0%D0%A0%D1%91%D0%A0%D1%98%D0%A0%D1%95%D0%A1%D0%83%D0%A0%D0%86%D0%A1%D0%8F%D0%A0%C2%B7%D0%A0%D1%91"
+                                data-code="#Взаимосвязи">
+                                #Взаимосвязи </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%E2%80%99%D0%A0%C2%B0%D0%A0%D1%94%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A0%D0%85%D0%A0%C2%B0%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#Вакцинация">
+                                #Вакцинация </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9A%D0%A0%D1%95%D0%A0%C2%B1%D0%A0%D1%91%D0%A0%C2%BB%D0%A0%D1%91%D0%A0%C2%B7%D0%A0%C2%B0%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#Мобилизация">
+                                #Мобилизация </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D0%85%D0%A0%C2%B5%D0%A1%D0%82%D0%A0%D0%86%D0%A0%D0%85%D0%A1%E2%80%B9%D0%A0%C2%B5%20%D0%A0%D1%94%D0%A0%C2%BB%D0%A0%C2%B5%D0%A1%E2%80%9A%D0%A0%D1%94%D0%A0%D1%91"
+                                data-code="#нервные клетки">
+                                #нервные клетки </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%99%D0%A0%D1%91%D0%A1%E2%80%9A%D0%A0%C2%B0%D0%A0%E2%84%96"
+                                data-code="#Китай">
+                                #Китай </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%C2%98%D0%A1%D0%83%D0%A1%D0%83%D0%A0%C2%BB%D0%A0%C2%B5%D0%A0%D2%91%D0%A0%D1%95%D0%A0%D0%86%D0%A0%C2%B0%D0%A0%D0%85%D0%A0%D1%91%D0%A0%C2%B5"
+                                data-code="#Исследование">
+                                #Исследование </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9F%D0%A0%D1%95%D0%A1%D0%83%D0%A0%C2%BB%D0%A0%C2%B5%D0%A0%D2%91%D0%A1%D0%83%D0%A1%E2%80%9A%D0%A0%D0%86%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#Последствия">
+                                #Последствия </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%97%D0%A0%D1%95%D0%A1%D0%83%D0%A0%C2%BB%D0%A0%C2%B5%D0%A0%D2%91%D0%A1%D0%83%D0%A1%E2%80%9A%D0%A0%D0%86%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#последствия">
+                                #последствия </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9E%D0%A0%C2%B5%D0%A1%D0%83%D0%A1%E2%80%9A%D0%A0%D1%91%D0%A1%D0%82%D0%A0%D1%95%D0%A0%D0%86%D0%A0%C2%B0%D0%A0%D0%85%D0%A0%D1%91%D0%A0%C2%B5"
+                                data-code="#Тестирование">
+                                #Тестирование </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9C%D0%A0%D1%95%D0%A0%D0%86%D0%A1%E2%80%B9%D0%A0%E2%84%96%20%D0%A1%E2%82%AC%D0%A1%E2%80%9A%D0%A0%C2%B0%D0%A0%D1%98%D0%A0%D1%98"
+                                data-code="#Новый штамм">
+                                #Новый штамм </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%95%D0%A0%C2%B1%D0%A0%D1%95%D0%A0%D0%85%D0%A1%D0%8F%D0%A0%D0%85%D0%A0%D1%91%D0%A0%C2%B5"
+                                data-code="#обоняние">
+                                #обоняние </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9A%D0%A0%D1%91%D0%A0%D0%85%D0%A0%C2%B7%D0%A0%D2%91%D0%A1%D0%82%D0%A0%C2%B0%D0%A0%D0%86"
+                                data-code="#Минздрав">
+                                #Минздрав </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%E2%80%99%D0%A0%C2%B0%D0%A0%D1%94%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A0%D0%85%D0%A0%C2%B0"
+                                data-code="#Вакцина">
+                                #Вакцина </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D0%81%D0%A1%E2%80%9A%D0%A0%C2%B0%D0%A0%D1%98%D0%A0%D1%98"
+                                data-code="#Штамм">
+                                #Штамм </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%91%D0%A1%D0%83%D0%A1%D0%83%D0%A0%C2%BB%D0%A0%C2%B5%D0%A0%D2%91%D0%A0%D1%95%D0%A0%D0%86%D0%A0%C2%B0%D0%A0%D0%85%D0%A0%D1%91%D0%A0%C2%B5"
+                                data-code="#исследование">
+                                #исследование </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%C2%AD%D0%A1%D0%82%D0%A0%C2%B5%D0%A0%D1%94%D0%A1%E2%80%9A%D0%A0%D1%91%D0%A0%C2%BB%D0%A1%D0%8A%D0%A0%D0%85%D0%A0%C2%B0%D0%A1%D0%8F%20%D0%A0%D2%91%D0%A0%D1%91%D0%A1%D0%83%D0%A1%E2%80%9E%D0%A1%D1%93%D0%A0%D0%85%D0%A0%D1%94%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#Эректильная дисфункция">
+                                #Эректильная дисфункция </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A1%E2%82%AC%D0%A1%E2%80%9A%D0%A0%C2%B0%D0%A0%D1%98%D0%A0%D1%98"
+                                data-code="#штамм">
+                                #штамм </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D0%86%D0%A0%C2%B0%D0%A0%D1%94%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A0%D0%85%D0%A0%C2%B0"
+                                data-code="#вакцина">
+                                #вакцина </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D0%86%D0%A0%C2%B0%D0%A0%D1%94%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A0%D0%85%D0%A0%C2%B0%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#вакцинация">
+                                #вакцинация </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%E2%80%99%D0%A0%D1%9B%D0%A0%E2%80%94"
+                                data-code="#ВОЗ">
+                                #ВОЗ </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%97%D0%A0%D1%95%D0%A1%D0%83%D0%A0%C2%BB%D0%A0%C2%B5%D0%A0%D2%91%D0%A1%D0%83%D0%A1%E2%80%9A%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#последстия">
+                                #последстия </a>
+                        </div>
+                        <div>
+                            <a class="" href="https://vironews.ru/search/?q=%23%D0%A0%D1%9B%D0%A0%C2%A0%D0%A0%E2%80%99"
+                                data-code="#ОРВ">
+                                #ОРВ </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D2%91%D0%A0%C2%B5%D0%A1%E2%80%9A%D0%A0%D1%91"
+                                data-code="#дети">
+                                #дети </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%E2%80%9C%D0%A0%C2%A0%D0%A0%C2%98%D0%A0%D1%9F%D0%A0%D1%9F"
+                                data-code="#ГРИПП">
+                                #ГРИПП </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%C2%A0%D0%A0%C2%B0%D0%A0%D2%91%D0%A0%C2%B0%D0%A0%D1%98%D0%A0%D1%91%D0%A0%D0%85%20%D0%A0%E2%80%99%D0%A0%D1%91%D0%A1%D0%82%D0%A0%D1%95"
+                                data-code="#Радамин Виро">
+                                #Радамин Виро </a>
+                        </div>
+                        <div>
+                            <a class="" href="https://vironews.ru/search/?q=%23%D0%A0%C2%A0%D0%A0%D1%9C%D0%A0%D1%99"
+                                data-code="#РНК">
+                                #РНК </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9F%D0%A1%D0%82%D0%A0%C2%B5%D0%A0%D1%97%D0%A0%C2%B0%D0%A1%D0%82%D0%A0%C2%B0%D0%A1%E2%80%9A"
+                                data-code="#Препарат">
+                                #Препарат </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%E2%80%9C%D0%A0%D1%91%D0%A0%D1%97%D0%A0%C2%B5%D0%A1%D0%82%D0%A1%E2%80%9A%D0%A0%D1%95%D0%A0%D0%85%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#Гипертония">
+                                #Гипертония </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%97%D0%A1%D0%82%D0%A0%C2%B5%D0%A0%D1%97%D0%A0%C2%B0%D0%A1%D0%82%D0%A0%C2%B0%D0%A1%E2%80%9A%D0%A1%E2%80%B9"
+                                data-code="#препараты">
+                                #препараты </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%97%D0%A0%C2%B0%D0%A0%D0%85%D0%A0%D2%91%D0%A0%C2%B5%D0%A0%D1%98%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#пандемия">
+                                #пандемия </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A1%D0%8C%D0%A1%D0%83%D0%A0%D1%97%D0%A0%C2%B5%D0%A1%D0%82%D0%A0%C2%B0%D0%A0%D0%86%D0%A0%D1%91%D0%A1%D0%82"
+                                data-code="#эсперавир">
+                                #эсперавир </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%C2%B0%D0%A1%D0%82%D0%A0%C2%B5%D0%A0%D1%97%D0%A0%C2%BB%D0%A0%D1%91%D0%A0%D0%86%D0%A0%D1%91%D0%A1%D0%82"
+                                data-code="#арепливир">
+                                #арепливир </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%C2%B0%D0%A0%D0%85%D0%A1%E2%80%9A%D0%A0%D1%91%D0%A1%E2%80%9A%D0%A0%C2%B5%D0%A0%C2%BB%D0%A0%C2%B0"
+                                data-code="#антитела">
+                                #антитела </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%E2%80%98%D0%A1%D0%82%D0%A0%C2%B5%D0%A0%E2%84%96%D0%A0%D0%85%D0%A0%D1%98%D0%A0%C2%B0%D0%A0%D1%94%D0%A1%D0%83"
+                                data-code="#Брейнмакс">
+                                #Брейнмакс </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9E%D0%A0%C2%B5%D0%A1%D0%82%D0%A0%C2%B0%D0%A0%D1%97%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#Терапия">
+                                #Терапия </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%9A%D0%A0%C2%B5%D0%A0%D0%85%D0%A1%D0%83%D0%A1%E2%80%9A%D0%A1%D0%82%D0%A1%D1%93%D0%A0%C2%B0%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A1%D0%8F"
+                                data-code="#Менструация">
+                                #Менструация </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A1%D0%82%D0%A0%C2%B5%D0%A0%D1%94%D0%A0%D1%95%D0%A0%D1%98%D0%A0%C2%B5%D0%A0%D0%85%D0%A0%D2%91%D0%A0%C2%B0%D0%A1%E2%80%A0%D0%A0%D1%91%D0%A0%D1%91"
+                                data-code="#рекомендации">
+                                #рекомендации </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%D1%97%D0%A0%D1%95%D0%A0%D0%86%D0%A1%E2%80%9A%D0%A0%D1%95%D0%A1%D0%82%D0%A0%D0%85%D0%A0%D1%95%D0%A0%C2%B5%20%D0%A0%C2%B7%D0%A0%C2%B0%D0%A1%D0%82%D0%A0%C2%B0%D0%A0%C2%B6%D0%A0%C2%B5%D0%A0%D0%85%D0%A0%D1%91%D0%A0%C2%B5"
+                                data-code="#повторное заражение">
+                                #повторное заражение </a>
+                        </div>
+                        <div>
+                            <a class=""
+                                href="https://vironews.ru/search/?q=%23%D0%A0%C2%B1%D0%A0%C2%B5%D0%A1%D0%82%D0%A0%C2%B5%D0%A0%D1%98%D0%A0%C2%B5%D0%A0%D0%85%D0%A0%D0%85%D0%A0%D1%95%D0%A1%D0%83%D0%A1%E2%80%9A%D0%A1%D0%8A"
+                                data-code="#беременность">
+                                #беременность </a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <a href="https://vironews.ru/news/covid-19-i-riski-pri-beremennosti/" class="article big"
+                            id="bx_3218110189_194">
+                            <div class="thumb no_margin full_h">
+                                <img data-src="/upload/iblock/312/r488ei8awuxsrwf3szil51v65vol48fv/adorable-cute-young-pregnant-woman-posing.jpg"
+                                    alt="adorable-cute-young-pregnant-woman-posing.jpg" class="lazyload loaded"
+                                    src="upload/iblock/312/r488ei8awuxsrwf3szil51v65vol48fv/adorable-cute-young-pregnant-woman-posing.jpg">
+                                <div class="name">COVID-19 и риски при беременности</div>
+                            </div>
+                        </a>
+                        <div class="poll big">
+                            <div id="comp_1cd92cca7f90aa359ac74328abe83c24">
+                                <form action="index.html" method="post" class="vote-form"><input type="hidden"
+                                        name="bxajaxid" id="bxajaxid_1cd92cca7f90aa359ac74328abe83c24_8BACKi"
+                                        value="1cd92cca7f90aa359ac74328abe83c24" /><input type="hidden" name="AJAX_CALL"
+                                        value="Y" /> <input type="hidden" name="vote" value="Y">
+                                    <input type="hidden" name="PUBLIC_VOTE_ID" value="7">
+                                    <input type="hidden" name="VOTE_ID" value="7">
+                                    <input type="hidden" name="sessid" id="sessid"
+                                        value="71dc2a74c358eb966bf69c67bc610f7b" />
+                                    <div class="pre_title">ОПРОС</div>
+                                    <div class="question">Когда будет новая волна COVID-19?<br>
+                                        <br>
+                                    </div>
+                                    <div class="answers">
+
+                                        <label for="vote_radio_17_88">
+                                            <input type="radio" name="vote_radio_17" value="88" id="vote_radio_17_88">
+                                            <div class="check">
+                                                <svg>
+                                                    <use xlink:href="/local/templates/viro/images/sprite.svg#ic_check">
+                                                    </use>
+                                                </svg>
+                                            </div>
+                                            <div>Февраль</div>
+                                        </label>
+
+                                        <label for="vote_radio_17_89">
+                                            <input type="radio" name="vote_radio_17" value="89" id="vote_radio_17_89">
+                                            <div class="check">
+                                                <svg>
+                                                    <use xlink:href="/local/templates/viro/images/sprite.svg#ic_check">
+                                                    </use>
+                                                </svg>
+                                            </div>
+                                            <div>Март</div>
+                                        </label>
+
+                                        <label for="vote_radio_17_90">
+                                            <input type="radio" name="vote_radio_17" value="90" id="vote_radio_17_90">
+                                            <div class="check">
+                                                <svg>
+                                                    <use xlink:href="/local/templates/viro/images/sprite.svg#ic_check">
+                                                    </use>
+                                                </svg>
+                                            </div>
+                                            <div>Апрель</div>
+                                        </label>
+
+                                        <label for="vote_radio_17_91">
+                                            <input type="radio" name="vote_radio_17" value="91" id="vote_radio_17_91">
+                                            <div class="check">
+                                                <svg>
+                                                    <use xlink:href="/local/templates/viro/images/sprite.svg#ic_check">
+                                                    </use>
+                                                </svg>
+                                            </div>
+                                            <div>Май</div>
+                                        </label>
+
+                                        <label for="vote_radio_17_92">
+                                            <input type="radio" name="vote_radio_17" value="92" id="vote_radio_17_92">
+                                            <div class="check">
+                                                <svg>
+                                                    <use xlink:href="/local/templates/viro/images/sprite.svg#ic_check">
+                                                    </use>
+                                                </svg>
+                                            </div>
+                                            <div>Июнь</div>
+                                        </label>
+
+                                        <label for="vote_radio_17_93">
+                                            <input type="radio" name="vote_radio_17" value="93" id="vote_radio_17_93">
+                                            <div class="check">
+                                                <svg>
+                                                    <use xlink:href="/local/templates/viro/images/sprite.svg#ic_check">
+                                                    </use>
+                                                </svg>
+                                            </div>
+                                            <div>Июль</div>
+                                        </label>
+                                    </div>
+
+
+                                    <div class="submit">
+                                        <input type="submit" class="submit_btn" name="vote" value="Голосовать">
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <a href="https://vironews.ru/news/fevral-infektsii-prigotovilis-nanesti-troynoy-udar/"
+                            class="article" id="bx_651765591_193">
+                            <div class="thumb">
+                                <img data-src="/upload/iblock/2f0/q0ejb4d2426les34x7ny13qzgcah8lwz/close-up-hand-with-bandage-of-muscular-man-training-kickboxing-on-black-and-blue-smoke.jpg"
+                                    alt="close-up-hand-with-bandage-of-muscular-man-training-kickboxing-on-black-and-blue-smoke.jpg"
+                                    class="lazyload loaded"
+                                    src="upload/iblock/2f0/q0ejb4d2426les34x7ny13qzgcah8lwz/close-up-hand-with-bandage-of-muscular-man-training-kickboxing-on-black-and-blue-smoke.jpg">
+                            </div>
+                            <div class="name">Февраль: инфекции приготовились нанести тройной удар!</div>
+
+                        </a>
+                        <a href="https://vironews.ru/news/povtornoe-zarazhenie-covid-19-pravda-i-mify/" class="article"
+                            id="bx_651765591_192">
+                            <div class="thumb">
+                                <img data-src="/upload/iblock/425/ajr5mdh4znadleg87qd7racu35bwz67z/fake-or-real-news-concept-top-view.jpg"
+                                    alt="fake-or-real-news-concept-top-view.jpg" class="lazyload loaded"
+                                    src="upload/iblock/425/ajr5mdh4znadleg87qd7racu35bwz67z/fake-or-real-news-concept-top-view.jpg">
+                            </div>
+                            <div class="name">Повторное заражение COVID-19: правда и мифы</div>
+
+                        </a>
+                        <a href="https://vironews.ru/news/postkovidnyy-sindrom-tekushchaya-situatsiya-i-perspektivy/"
+                            class="article" id="bx_651765591_191">
+                            <div class="thumb">
+                                <img data-src="/upload/iblock/87e/abozmfaqjfk1wf48gseeuixufhp7x8yh/female-scientist-who-puts-brain-waves-scanning-device-on-a-female-patient-clinical-study-of-brain-activity.jpg"
+                                    alt="female-scientist-who-puts-brain-waves-scanning-device-on-a-female-patient-clinical-study-of-brain-activity.jpg"
+                                    class="lazyload loaded"
+                                    src="upload/iblock/87e/abozmfaqjfk1wf48gseeuixufhp7x8yh/female-scientist-who-puts-brain-waves-scanning-device-on-a-female-patient-clinical-study-of-brain-activity.jpg">
+                            </div>
+                            <div class="name">Постковидный синдром: текущая ситуация и перспективы</div>
+
+                        </a>
+                        <a href="https://vironews.ru/news/" class="all_link">
+                            <div><span>Все новости</span></div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="medicine">
+                <div class="cont">
+
+                    <div class="block_head pad_r">
+                        <div class="title">Справочник препаратов</div>
+                    </div>
+                    <div class="swiper ">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide visible active" id="bx_1373509569_25" data-swiper-slide-index="1"
+                                style="width: 1668px; margin-right: 24px;" role="group" aria-label="1 / 5>">
+                                <div class="images">
+
+                                    <a title="СКАЙВИРА" href="http://skyvira.vironews.ru/terapiya/skayvira/"><img
+                                            alt="СКАЙВИРА" class="swiper-lazy swiper-lazy-loaded"
+                                            src="upload/iblock/bb1/m46e8zeceaocc9npcgswj8pk32mxa6ff/viro_sky.png"></a>
+
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide visible active" id="bx_1373509569_24" data-swiper-slide-index="2"
+                                style="width: 1668px; margin-right: 24px;" role="group" aria-label="2 / 5>">
+                                <div class="images">
+
+                                    <a title="ЭСПЕРАВИР" href="http://esperavir.vironews.ru/terapiya/esperavir/"><img
+                                            alt="ЭСПЕРАВИР" class="swiper-lazy swiper-lazy-loaded"
+                                            src="upload/iblock/076/bt290vkywnpxzjfv7wzro35212q3b0x6/viro_esp.png"></a>
+
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide visible active" id="bx_1373509569_23" data-swiper-slide-index="3"
+                                style="width: 1668px; margin-right: 24px;" role="group" aria-label="3 / 5>">
+                                <div class="images">
+
+                                    <a title="АРЕПЛИВИР" href="http://areplivir.vironews.ru/terapiya/areplivir/"><img
+                                            alt="АРЕПЛИВИР" class="swiper-lazy swiper-lazy-loaded"
+                                            src="upload/iblock/ca8/r0dnzl11wjwsl0mcudvntbdzz27qo8ny/viro_areplivir.png"></a>
+
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide visible active" id="bx_1373509569_140" data-swiper-slide-index="4"
+                                style="width: 1668px; margin-right: 24px;" role="group" aria-label="4 / 5>">
+                                <div class="images">
+
+                                    <a title="РАДАМИН® ВИРО" href="https://vironews.ru/terapiya/radamin/"><img
+                                            alt="РАДАМИН® ВИРО" class="swiper-lazy swiper-lazy-loaded"
+                                            src="upload/iblock/7e7/t8ad8m4wohfjeu0by2t8jfb5bumzdqxi/viro_radamin.png"></a>
+
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide visible active" id="bx_1373509569_142" data-swiper-slide-index="5"
+                                style="width: 1668px; margin-right: 24px;" role="group" aria-label="5 / 5>">
+                                <div class="images">
+
+                                    <a title="БРЕЙНМАКС®" href="https://vironews.ru/terapiya/brainmax/"><img
+                                            alt="БРЕЙНМАКС®" class="swiper-lazy swiper-lazy-loaded"
+                                            src="upload/iblock/9ff/0losw8ya26dpr3mbg462bywdl818ltb0/viro_brainmax.png"></a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <a href="https://vironews.ru/terapiya/" class="all_link">Все препараты</a>
+                        </div>
+
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                            aria-controls="swiper-wrapper-f69fd8bd9a38f6df">
+                            <svg class="icon">
+                                <use xlink:href="/local/templates/viro/images/sprite.svg#ic_arr_ver"></use>
+                            </svg>
+                        </div>
+
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                            aria-controls="swiper-wrapper-f69fd8bd9a38f6df">
+                            <svg class="icon">
+                                <use xlink:href="/local/templates/viro/images/sprite.svg#ic_arr_ver"></use>
+                            </svg>
+                        </div>
+
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </div>
+
+        <footer>
+            <div class="cont">
+                <div class="logo">
+                    <div class="name">VIRO NEWS</div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="soc">
+            <button class="close_btn">
+                <svg class="icon">
+                    <use xlink:href="/viro/images/sprite.svg#ic_close"></use>
+                </svg>
+            </button>
+
+            <div class="title">Читайте нас в Telegram:</div>
+
+            <div class="items">
+                <!--        <a href="/" target="_blank" rel="noopener nofollow">
+            <svg class="icon"><use xlink:href="/viro/images/sprite.svg#ic_vk"></use></svg>
+        </a>
+
+        <a href="/" target="_blank" rel="noopener nofollow">
+            <svg class="icon"><use xlink:href="/viro/images/sprite.svg#ic_instagram"></use></svg>
+        </a>-->
+
+                <a href="http://t.me/viro_news" target="_blank" rel="noopener nofollow">
+                    <svg class="icon">
+                        <use xlink:href="/viro/images/sprite.svg#ic_telegram"></use>
+                    </svg>
+                </a>
+                <!--
+        <a href="/" target="_blank" rel="noopener nofollow">
+            <svg class="icon"><use xlink:href="/viro/images/sprite.svg#ic_youtube"></use></svg>
+        </a>-->
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="modal" id="warning_modal" style="display: none;">
+        <div class="title">
+            ВНИМАНИЕ!
+        </div>
+
+        <div class="desc">Вся информация в данном веб-сайте, предназначена исключительно для специалистов
+            здравоохранения/медициниских работников. Пожалуйста, подтвердите, что Вы являетесь медицинским или
+            фармацевтическим работником.</div>
+
+        <div class="btns">
+            <button class="btn close_btn">
+                Да, я подтверждаю
+            </button>
+
+            <button class="btn border">
+                Нет, я отказываюсь
+            </button>
+        </div>
+    </section><!-- VIRONEWS.RU -->
+
+    <!-- Google tag (gtag.js) -->
+    <!-- Yandex.Metrika counter -->
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/90049565" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+    <script
+        type="text/javascript">if (!window.BX) window.BX = {}; if (!window.BX.message) window.BX.message = function (mess) { if (typeof mess === 'object') { for (let i in mess) { BX.message[i] = mess[i]; } return true; } };</script>
+    <script
+        type="text/javascript">(window.BX || top.BX).message({ 'JS_CORE_LOADING': 'Загрузка...', 'JS_CORE_NO_DATA': '- Нет данных -', 'JS_CORE_WINDOW_CLOSE': 'Закрыть', 'JS_CORE_WINDOW_EXPAND': 'Развернуть', 'JS_CORE_WINDOW_NARROW': 'Свернуть в окно', 'JS_CORE_WINDOW_SAVE': 'Сохранить', 'JS_CORE_WINDOW_CANCEL': 'Отменить', 'JS_CORE_WINDOW_CONTINUE': 'Продолжить', 'JS_CORE_H': 'ч', 'JS_CORE_M': 'м', 'JS_CORE_S': 'с', 'JSADM_AI_HIDE_EXTRA': 'Скрыть лишние', 'JSADM_AI_ALL_NOTIF': 'Показать все', 'JSADM_AUTH_REQ': 'Требуется авторизация!', 'JS_CORE_WINDOW_AUTH': 'Войти', 'JS_CORE_IMAGE_FULL': 'Полный размер' });</script>
+    <script type="text/javascript" src="https://vironews.ru/bitrix/js/main/core/core.min.js?1673436037220366"></script>
+    <script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js', '/bitrix/js/main/core/core_promise.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/loadext/loadext.js', '/bitrix/js/main/loadext/extension.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/includes/js/includes.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/ui/polyfill/closest/js/closest.js', '/bitrix/js/main/polyfill/fill/main.polyfill.fill.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/core/core.js', '/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js', '/bitrix/js/main/lazyload/dist/lazyload.bundle.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+    </script>
+    <script
+        type="text/javascript">(window.BX || top.BX).message({ 'LANGUAGE_ID': 'ru', 'FORMAT_DATE': 'DD.MM.YYYY', 'FORMAT_DATETIME': 'DD.MM.YYYY HH:MI:SS', 'COOKIE_PREFIX': 'BITRIX_SM', 'SERVER_TZ_OFFSET': '10800', 'UTF_MODE': 'Y', 'SITE_ID': 's1', 'SITE_DIR': '/', 'USER_ID': '', 'SERVER_TIME': '1676463598', 'USER_TZ_OFFSET': '0', 'USER_TZ_AUTO': 'Y', 'bitrix_sessid': '71dc2a74c358eb966bf69c67bc610f7b' });</script>
+    <script
+        type="text/javascript">BX.setJSList(['/local/templates/viro/js/jquery-3.5.0.min.js', '/local/templates/viro/js/swiper-bundle.min.js', '/local/templates/viro/js/inputmask.min.js', '/local/templates/viro/js/nice-select.js', '/local/templates/viro/js/fancybox.min.js', '/local/templates/viro/js/air-datepicker.js', '/local/templates/viro/js/functions.js', '/local/templates/viro/js/scripts.js', '/local/templates/viro/js/jquery.cookie.js', '/local/templates/viro/js/custom_template.js', '/bitrix/components/bitrix/search.title/script.js']);</script>
+    <script
+        type="text/javascript">BX.setCSSList(['/local/templates/viro/components/bitrix/voting.form/index_voite/style.css', '/local/templates/viro/components/bitrix/news.list/slider_index/style.css', '/local/templates/viro/css/swiper-bundle.min.css', '/local/templates/viro/css/swiper.css', '/local/templates/viro/css/fancybox.css', '/local/templates/viro/css/air-datepicker.css', '/local/templates/viro/css/styles.css', '/local/templates/viro/css/response_1899.css', '/local/templates/viro/css/response_1439.css', '/local/templates/viro/css/response_1279.css', '/local/templates/viro/css/response_1023.css', '/local/templates/viro/css/response_767.css', '/local/templates/viro/css/response_479.css', '/local/templates/viro/css/radamin.css', '/local/templates/viro/css/brainmax.css', '/local/templates/viro/css/dev.css']);</script>
+
+    <script type="text/javascript"
+        src="https://vironews.ru/bitrix/cache/js/s1/viro/template_dc3428959e6b22086b4fd3e5c89ec106/template_dc3428959e6b22086b4fd3e5c89ec106_v1.js?1676017055523755"></script>
+    <script
+        type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "d938a4587c8598745cd010e212171a58"]); _ba.push(["host", "vironews.ru"]); (function () { var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true; ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ba, s); })();</script>
+
+
+
+    <script type="text/javascript">
+        var jsControl = new JCTitleSearch({
+            //'WAIT_IMAGE': '/bitrix/themes/.default/images/wait.gif',
+            'AJAX_PAGE': '/',
+            'CONTAINER_ID': 'title-search',
+            'INPUT_ID': 'title-searchs-input',
+            'MIN_QUERY_LEN': 2
+        });
+        $("#title-searchs-input").focus(function () { $(this).parents("form").find("button[type='submit']").addClass("hover"); });
+        $("#title-searchs-input").blur(function () { $(this).parents("form").find("button[type='submit']").removeClass("hover"); });
+    </script>
+
+
+
+    <script type="text/javascript">
+        var jsControl = new JCTitleSearch({
+            //'WAIT_IMAGE': '/bitrix/themes/.default/images/wait.gif',
+            'AJAX_PAGE': '/',
+            'CONTAINER_ID': 'title-search',
+            'INPUT_ID': 'title-searchs-input',
+            'MIN_QUERY_LEN': 2
+        });
+        $("#title-searchs-input").focus(function () { $(this).parents("form").find("button[type='submit']").addClass("hover"); });
+        $("#title-searchs-input").blur(function () { $(this).parents("form").find("button[type='submit']").removeClass("hover"); });
+    </script>
+
+
+    <script
+        type="text/javascript">if (window.location.hash != '' && window.location.hash != '#') top.BX.ajax.history.checkRedirectStart('bxajaxid', '1cd92cca7f90aa359ac74328abe83c24')</script>
+    <script type="text/javascript">
+        function _processform_8BACKi() {
+            if (BX('bxajaxid_1cd92cca7f90aa359ac74328abe83c24_8BACKi')) {
+                var obForm = BX('bxajaxid_1cd92cca7f90aa359ac74328abe83c24_8BACKi').form;
+                BX.bind(obForm, 'submit', function () { BX.ajax.submitComponentForm(this, 'comp_1cd92cca7f90aa359ac74328abe83c24', true) });
+            }
+            BX.removeCustomEvent('onAjaxSuccess', _processform_8BACKi);
+        }
+        if (BX('bxajaxid_1cd92cca7f90aa359ac74328abe83c24_8BACKi'))
+            _processform_8BACKi();
+        else
+            BX.addCustomEvent('onAjaxSuccess', _processform_8BACKi);
+    </script>
+    <script
+        type="text/javascript">if (top.BX.ajax.history.bHashCollision) top.BX.ajax.history.checkRedirectFinish('bxajaxid', '1cd92cca7f90aa359ac74328abe83c24');</script>
+    <script
+        type="text/javascript">top.BX.ready(BX.defer(function () { window.AJAX_PAGE_STATE = new top.BX.ajax.component('comp_1cd92cca7f90aa359ac74328abe83c24'); top.BX.ajax.history.init(window.AJAX_PAGE_STATE); }))</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LSMT7H42YJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LSMT7H42YJ');
+    </script>
+
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            var z = null; m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(90049565, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./morbidity.js"></script>
+</body>
+
+</html>

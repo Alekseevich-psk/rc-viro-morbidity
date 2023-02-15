@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /*?q=
+Disallow: /*search/
+Disallow: /ajax/
+Disallow: /bitrix/
+Disallow: /*filter/
+Disallow: /*index.php
+Disallow: /*?sphrase_id=
+Disallow: /*?product=
+Allow: /bitrix/cache/
+Allow: /bitrix/js/
+Allow: /bitrix/templates/
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.png
+Allow: *.svg
+Allow: *?PAGEN
+
+Sitemap: https://vironews.ru/sitemap.xml
