@@ -48,28 +48,28 @@
         plugins: {
             legend: {
                 display: true,
-                position: "top",
+                position: "bottom",
                 labels: {
                     boxWidth: 100,
                 },
             },
         },
-        scales: {
-            x: {
-                display: true,
-                title: {
-                    display: true,
-                    text: "Ось X",
-                },
-            },
-            y: {
-                display: true,
-                title: {
-                    display: true,
-                    text: "Ось Y",
-                },
-            },
-        },
+        // scales: {
+        //     x: {
+        //         display: true,
+        //         title: {
+        //             display: true,
+        //             text: "Ось X",
+        //         },
+        //     },
+        //     y: {
+        //         display: true,
+        //         title: {
+        //             display: true,
+        //             text: "Ось Y",
+        //         },
+        //     },
+        // },
     };
 
     var sickCanvas = document.querySelector("#sickChart");
