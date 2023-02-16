@@ -12,6 +12,21 @@
         },
     });
 
+    const morbidityBtnShowDesc = parent.querySelectorAll(".morbidity__btn-show-desc");
+    if (!morbidityBtnShowDesc.length >= 1) return;
+
+    morbidityBtnShowDesc.forEach((el) => {
+        el.addEventListener("click", function () {
+            this.nextElementSibling.classList.toggle("active");
+
+            if (el.innerHTML == "Показать описание") {
+                el.innerHTML = "Скрыть описание";
+            } else {
+                el.innerHTML = "Показать описание";
+            }
+        });
+    });
+
     var dataFirst = {
         label: "Заболеваемость 2022/23",
         data: [0, 59, 75, 20, 20, 55, 40],
@@ -33,7 +48,7 @@
         plugins: {
             legend: {
                 display: true,
-                position: "bottom",
+                position: "right",
                 labels: {
                     boxWidth: 100,
                 },
