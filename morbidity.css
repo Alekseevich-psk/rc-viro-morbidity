@@ -19,6 +19,7 @@
 }
 
 .morbidity__desc {
+    transition: 0.3s;
     padding-top: 20px;
     font-size: 16px;
     opacity: 0;
