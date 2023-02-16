@@ -48,7 +48,7 @@
         plugins: {
             legend: {
                 display: true,
-                position: "right",
+                position: "top",
                 labels: {
                     boxWidth: 100,
                 },
