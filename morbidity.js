@@ -50,26 +50,11 @@
                 display: true,
                 position: "bottom",
                 labels: {
-                    boxWidth: 100,
+                    boxWidth: 6,
+                    boxHeight: 6,
                 },
             },
-        },
-        // scales: {
-        //     x: {
-        //         display: true,
-        //         title: {
-        //             display: true,
-        //             text: "Ось X",
-        //         },
-        //     },
-        //     y: {
-        //         display: true,
-        //         title: {
-        //             display: true,
-        //             text: "Ось Y",
-        //         },
-        //     },
-        // },
+        }
     };
 
     var sickCanvas = document.querySelector("#sickChart");
